@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/conferencias/</loc>
+    <loc>https://araceliornelas.com/conferencias/</loc>
     <lastmod>2024-10-15T12:34:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://araceliornelas.com/about/</loc>
     <lastmod>2024-10-15T12:27:41+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blue/</loc>
+    <loc>https://araceliornelas.com/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/green/</loc>
+    <loc>https://araceliornelas.com/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-3/</loc>
+    <loc>https://araceliornelas.com/blog/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/red/</loc>
+    <loc>https://araceliornelas.com/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://araceliornelas.com/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-2/</loc>
+    <loc>https://araceliornelas.com/blog/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-1/</loc>
+    <loc>https://araceliornelas.com/blog/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://araceliornelas.com/blog/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://araceliornelas.com/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://araceliornelas.com/categories/</loc>
   </url>
 </urlset>

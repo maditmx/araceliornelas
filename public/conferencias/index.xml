@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conferencias y Capacitaciones on Araceli Ornelas</title>
-    <link>http://localhost:1313/conferencias/</link>
+    <link>https://araceliornelas.com/conferencias/</link>
     <description>Recent content in Conferencias y Capacitaciones on Araceli Ornelas</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/conferencias/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://araceliornelas.com/conferencias/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
