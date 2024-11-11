@@ -9,24 +9,31 @@
     <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
     <atom:link href="https://araceliornelas.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blue</title>
-      <link>https://araceliornelas.com/tags/blue/</link>
+      <title>Deporte</title>
+      <link>https://araceliornelas.com/tags/deporte/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/blue/</guid>
+      <guid>https://araceliornelas.com/tags/deporte/</guid>
       <description></description>
     </item>
     <item>
-      <title>Green</title>
-      <link>https://araceliornelas.com/tags/green/</link>
+      <title>Salud</title>
+      <link>https://araceliornelas.com/tags/salud/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/green/</guid>
+      <guid>https://araceliornelas.com/tags/salud/</guid>
       <description></description>
     </item>
     <item>
-      <title>Red</title>
-      <link>https://araceliornelas.com/tags/red/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/red/</guid>
+      <title>Mindfulness</title>
+      <link>https://araceliornelas.com/tags/mindfulness/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>https://araceliornelas.com/tags/mindfulness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Liderazgo</title>
+      <link>https://araceliornelas.com/tags/liderazgo/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>https://araceliornelas.com/tags/liderazgo/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,7 +2,7 @@
 title = 'La Importancia del Fair Play en el Deporte y en la Vida'
 date = 2023-03-15T11:00:00-07:00
 draft = false
-tags = ['red','green','blue']
+tags = ['salud','deporte']
 description = "El concepto de fair play es esencial en el Taekwondo y en todos los deportes, pero también es un principio que puede guiarnos en la vida y en el trabajo. En este artículo, exploro cómo el fair play, o juego limpio, fomenta el respeto, la equidad y el compañerismo, tanto dentro como fuera del tatami."
 +++
 

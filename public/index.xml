@@ -6,8 +6,15 @@
     <description>Recent content in Inicio on Araceli Ornelas</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 15 Oct 2024 12:27:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 19:55:59 +0100</lastBuildDate>
     <atom:link href="https://araceliornelas.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contacto</title>
+      <link>https://araceliornelas.com/contacto/</link>
+      <pubDate>Mon, 11 Nov 2024 19:55:59 +0100</pubDate>
+      <guid>https://araceliornelas.com/contacto/</guid>
+      <description>&lt;p&gt;{{ .Render &amp;ldquo;contacto&amp;rdquo; }}&#xA;&#xA;      &#xA;      &lt;section class=&#34;container&#34;&gt;&#xA;        &lt;div class=&#34;bg-secondary rounded-3 py-5 px-3 px-sm-4 px-md-0&#34;&gt;&#xA;          &lt;h2 class=&#34;text-center pt-md-1 pt-lg-3 pt-xl-4 pb-4 mt-xl-1 mb-2&#34;&gt;Preguntas Frecuentes&lt;/h2&gt;&#xA;          &lt;div class=&#34;row justify-content-center pb-lg-4 pb-xl-5&#34;&gt;&#xA;            &lt;div class=&#34;col-xl-8 col-lg-9 col-md-10 pb-md-2&#34;&gt;&#xA;              &lt;div class=&#34;accordion&#34; id=&#34;faq&#34;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;                &lt;div class=&#34;accordion-item border-0 rounded-3 shadow-sm&#34;&gt;&#xA;                  &lt;h3 class=&#34;accordion-header&#34;&gt;&#xA;                    &lt;button class=&#34;accordion-button shadow-none rounded-3 collapsed&#34; type=&#34;button&#34; data-bs-toggle=&#34;collapse&#34; data-bs-target=&#34;#q-0&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;q-0&#34;&gt;What if I don&amp;#39;t have any professional background?&lt;/button&gt;&#xA;                  &lt;/h3&gt;&#xA;                  &lt;div class=&#34;accordion-collapse collapse&#34; id=&#34;q-0&#34; data-bs-parent=&#34;#faq&#34;&gt;&#xA;                    &lt;div class=&#34;accordion-body fs-sm pt-0&#34;&gt;&#xA;                      &lt;p&gt;Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sobre Mi</title>
       <link>https://araceliornelas.com/about/</link>

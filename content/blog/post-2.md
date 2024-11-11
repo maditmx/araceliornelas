@@ -2,7 +2,7 @@
 title = 'Cómo Mantener la Calma Bajo Presión: Lecciones del Arbitraje en Taekwondo'
 date = 2023-02-15T10:00:00-07:00
 draft = false
-tags = ['red','green']
+tags = ['mindfulness','salud']
 description = "Aquí comparto algunas estrategias que uso para mantener la calma y la claridad mental en momentos de alta presión, estrategias que también son aplicables a situaciones corporativas y de la vida cotidiana."
 +++
 ### **Introducción**
