@@ -3,7 +3,7 @@ title = 'Cómo Mantener la Calma Bajo Presión: Lecciones del Arbitraje en Taekw
 date = 2023-02-15T10:00:00-07:00
 draft = false
 tags = ['red','green']
-type = 'post'
+description = "Aquí comparto algunas estrategias que uso para mantener la calma y la claridad mental en momentos de alta presión, estrategias que también son aplicables a situaciones corporativas y de la vida cotidiana."
 +++
 ### **Introducción**
 La presión es una constante en el mundo del arbitraje. Los árbitros en competiciones de alto nivel, como el Taekwondo, enfrentan decisiones en fracciones de segundo que pueden impactar el resultado de toda una competencia. Aquí comparto algunas estrategias que uso para mantener la calma y la claridad mental en momentos de alta presión, estrategias que también son aplicables a situaciones corporativas y de la vida cotidiana.

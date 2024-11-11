@@ -85,7 +85,9 @@
               <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
                 <div class="card-body pb-0">
                   <div class="d-flex align-items-center justify-content-between mb-3">
-                    <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">{{.Section | upper}}</a>
+                    {{ range .Params.Tags }}
+                    <a href="/tags/{{ . }}" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">{{ . | upper}}</a>
+                    {{ end }}
                     <span class="fs-sm text-muted">{{ .Date.Format "2006-01-02"}}</span>
                   </div>
                   <h3 class="h4">

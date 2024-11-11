@@ -3,7 +3,7 @@ title = 'Lecciones de Liderazgo y Ética desde el Tatami'
 date = 2023-01-15T09:00:00-07:00
 draft = false
 tags = ['red']
-type = 'post'
+description = "En este artículo, quiero compartir algunas lecciones de liderazgo y ética que he aprendido a lo largo de mi carrera en el Taekwondo y que se aplican en cualquier entorno profesional."
 +++
 ### **Introducción**
 Como árbitro internacional de Taekwondo y especialista en cumplimiento normativo, he tenido la oportunidad de ver de primera mano cómo la ética y el liderazgo juegan un papel crucial en todas las facetas de nuestras vidas, desde las competiciones deportivas hasta los desafíos corporativos. En este artículo, quiero compartir algunas lecciones de liderazgo y ética que he aprendido a lo largo de mi carrera en el Taekwondo y que se aplican en cualquier entorno profesional.
