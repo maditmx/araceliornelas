@@ -1,106 +1,791 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-<head>
+<html
+  lang="es"
+  dir="ltr"
+  data-bs-theme="light"
+>
+  <head>
 	<meta name="generator" content="Hugo 0.134.3">
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
 <title>Araceli Ornelas</title>
 
-      <link rel="stylesheet" href="/css/main.min.73be4799b2091d293b47b52ca2642fe82aa2b1c9c050e8d1b389a80939a30dd4.css" integrity="sha256-c75HmbIJHSk7R7UsomQv6CqiscnAUOjRs4moCTmjDdQ=" crossorigin="anonymous">
+
+<meta name="description" content="Silicon - Multipurpose Technology Bootstrap Template">
+<meta name="keywords" content="bootstrap, business, creative agency, mobile app showcase, saas, fintech, finance, online courses, software, medical, conference landing, services, e-commerce, shopping cart, multipurpose, shop, ui kit, marketing, seo, landing, blog, portfolio, html5, css3, javascript, gallery, slider, touch, creative">
+<meta name="author" content="Marco Diaz">
 
 
-      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-</head>
-<body>
-  <header>
-    <h1>Araceli Ornelas</h1>
-
-  <nav>
-    <ul>
-    <li>
-      <a aria-current="page" class="active" href="/">Inicio</a>
-    </li>
-    <li>
-      <a href="/about/">Sobre mi</a>
-    </li>
-    <li>
-      <a href="/conferencias/">Conferencias y Capacitaciones</a>
-    </li>
-    <li>
-      <a href="/blog/">Blog</a>
-    </li>
-    <li>
-      <a>Contacto</a>
-    </li>
-    </ul>
-  </nav>
 
 
-  </header>
-  <main>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#080032">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+<link rel="stylesheet" media="screen" href="/assets/vendor/boxicons/css/boxicons.min.css">
+<link rel="stylesheet" media="screen" href="/assets/vendor/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" media="screen" href="/assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
+
+
+<link rel="stylesheet" media="screen" href="/assets/css/theme.css">
+
+
+
+
     
-  <p>Imagen de Impacto: Una fotografía de Araceli en acción como árbitro en una competencia internacional, acompañada de un eslogan atractivo:</p>
-<p>&ldquo;Transforma tu visión del arbitraje y liderazgo con la experiencia de una árbitro internacional&rdquo;.</p>
-<p>Araceli Ornelas Caballero es una reconocida árbitro internacional de Taekwondo y una especialista en gestión de riesgos con más de 20 años de trayectoria profesional. Ofrece conferencias y capacitaciones para quienes buscan perfeccionar su conocimiento en el arbitraje deportivo y mejorar sus habilidades de liderazgo en cualquier ámbito.</p>
-<p>Botones de Llamada a la Acción (CTA):</p>
-<p>&ldquo;Reservar Conferencia&rdquo;
-&ldquo;Conocer Más&rdquo;</p>
-<h1 id="trayectoria-y-logros">Trayectoria y Logros</h1>
-<h2 id="eventos-destacados">Eventos Destacados:</h2>
-<p>Araceli ha oficiado en algunos de los eventos más importantes del Taekwondo, destacándose por su profesionalismo y conocimiento de las reglas. Algunos de los eventos recientes incluyen:</p>
-<p>Juegos Olímpicos de París 2024
-Campeonato Panamericano de Poomsae 2024
-Santiago 2023 Juegos Panamericanos
-Grand-Prix WT Roma 2023
-Guadalajara 2022 Campeonato del Mundo de Taekwondo</p>
-<h2 id="premios-y-reconocimientos">Premios y Reconocimientos:</h2>
-<p>Araceli ha sido reconocida repetidamente con el premio a Mejor Árbitro en competencias internacionales. Su más reciente galardón fue otorgado en la Gala 2023 de la Unión Panamericana de Taekwondo (PATU).</p>
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      [data-bs-theme="dark"] .page-loading {
+        background-color: #0b0f19;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #9397ad;
+      }
+      [data-bs-theme="dark"] .page-loading-inner > span {
+        color: #fff;
+        opacity: .6;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #b4b7c9;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      [data-bs-theme="dark"] .page-spinner {
+        border-color: rgba(255,255,255,.4);
+        border-right-color: transparent;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+
+
+<script>
+  (function () {
+    window.onload = function () {
+      const preloader = document.querySelector('.page-loading');
+      preloader.classList.remove('active');
+      setTimeout(function () {
+        preloader.remove();
+      }, 1000);
+    };
+  })();
+</script>
+
+  </head>
+  <body>
+    
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div>
+        <span>Loading...</span>
+      </div>
+    </div>
+
+    
+    
+    <main class="page-wrapper">
+      <header><h1>.</h1>
+
+    <nav class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+      <div class="container px-3">
+        <a href="index.html" class="navbar-brand pe-3">
+          <img src="/assets/img/logo.svg" width="47" alt="Marco Díaz">
+          Araceli Ornelas
+        </a>
+        <div id="navbarNav" class="offcanvas offcanvas-end">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li>
+        <a aria-current="page" class="active nav-link" href="/"class="nav-link">Inicio</a>
+      </li>
+      <li>
+        <a href="/about/"class="nav-link">Sobre mi</a>
+      </li>
+      <li>
+        <a href="/conferencias/"class="nav-link">Conferencias y Capacitaciones</a>
+      </li>
+      <li>
+        <a href="/blog/"class="nav-link">Blog</a>
+      </li>
+      <li>
+        <aclass="nav-link">Contacto</a>
+      </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </nav>
+  
+
+<br/>
+
+
+</header>
+
+      
+        
+      <section class="pt-lg-4 mt-lg-3">
+        <div class="position-relative overflow-hidden">
+  
+          
+          <div class="container-fluid position-relative position-lg-absolute top-0 start-0 h-100">
+            <div class="row h-100 me-n4 me-n2">
+              <div class="col-lg-7 position-relative">
+                <div class="d-none d-sm-block d-lg-none" style="height: 400px;"></div>
+                <div class="d-sm-none" style="height: 300px;"></div>
+                <div class="jarallax position-absolute top-0 start-0 w-100 h-100 rounded-3 rounded-start-0 overflow-hidden" data-jarallax data-speed="0.3">
+                  <div class="jarallax-img" style="background-image: url(/assets/img/IMG-20241008-WA0024.jpg);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container position-relative zindex-5 pt-lg-5 px-0 px-lg-3">
+            <div class="row pt-lg-5 mx-n4 mx-lg-n3">
+              <div class="col-xl-6 col-lg-7 offset-lg-5 offset-xl-6 pb-5">
+  
+                
+                <div class="card bg-dark border-light overflow-hidden py-4 px-2 p-sm-4">
+                  <span class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255,255,255,.05);"></span>
+                  <div class="card-body position-relative zindex-5">
+                    <p class="fs-xl fw-bold text-primary text-uppercase mb-3">Bienvenido</p>
+                    <h1 class="display-5 text-light pb-3 mb-3">Transforma tu visión del arbitraje y liderazgo con la experiencia de una árbitro internacional</h1>
+                    <p class="fs-lg text-light opacity-70 mb-5">Araceli Ornelas Caballero es una reconocida árbitro internacional de Taekwondo y una especialista en gestión de riesgos con más de 20 años de trayectoria profesional. Ofrece conferencias y capacitaciones para quienes buscan perfeccionar su conocimiento en el arbitraje deportivo y mejorar sus habilidades de liderazgo en cualquier ámbito.</p>
+                    <div class="d-flex flex-column flex-sm-row">
+                      <a href="#" class="btn btn-primary shadow-primary btn-lg mb-3 mb-sm-0 me-sm-4">Reservar Conferencia</a>
+                      <a href="#" class="btn btn-outline-light btn-lg">
+                        Conocer Más
+                        <i class="bx bx-right-arrow-alt fs-4 lh-1 ms-2 me-n1"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-3 col-lg-4 offset-lg-8 offset-xxl-9 pt-lg-5 mt-xxl-5">
+  
+                
+                <ul class="list-unstyled mb-0 px-4 px-lg-0">
+                  <li class="d-flex align-items-center pb-1 mb-2">
+                    <i class="bx bx-map fs-xl text-primary me-2"></i>
+                    CDMX, México
+                  </li>
+                  <li class="d-flex align-items-center pb-1 mb-2">
+                    <i class="bx bx-envelope fs-xl text-primary me-2"></i>
+                    <a href="mailto:contacto@araceliornelas.com" class="nav-link fw-normal p-0">contacto@araceliornelas.com</a>
+                  </li>
+                  <li class="d-flex align-items-center pb-1 mb-2">
+                    <i class="bx bx-phone-call fs-xl text-primary me-2"></i>
+                    <a href="tel:&#43;52%2055%205555%208888" class="nav-link fw-normal p-0">&#43;52 55 5555 8888</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="heading">.</h2>
+
+<h1 class="container pb-4 mt-n1 mt-lg-0">Trayectoria y Logros</h1>
+
+
+      <section class="container mb-md-3 mb-lg-5 pb-5">
+        <div class="row">
+          <div class="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
+            <div class="pe-lg-5">
+              <img src="assets/img/IMG-20241008-WA0004.jpg" class="rounded-3" alt="Image">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="h3 mb-sm-4">Eventos destacados</h2>
+            <p class="d-md-none d-xl-block pb-2 pb-md-3 mb-3">Araceli ha oficiado en algunos de los eventos más importantes del Taekwondo, destacándose por su profesionalismo y conocimiento de las reglas. Algunos de los eventos recientes incluyen:</p>
+            <div class="border rounded-3 mb-4 mb-lg-5">
+              <div class="row row-cols-1 row-cols-sm-2 g-0">
+                <div class="col d-flex align-items-center border-end-sm border-bottom p-3">
+                  <img src="assets/img/services/icons/digital.svg" width="48" alt="Icon">
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Juegos Olímpicos de París 2024</h3>
+                    <p class="fs-xs mb-0">Aliquam quis odio senectus.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-center border-bottom p-3">
+                  <img src="assets/img/services/icons/chart.svg" width="48" alt="Icon">
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Campeonato Panamericano de Poomsae 2024</h3>
+                    <p class="fs-xs mb-0">Curabitur neque ut morbi sapien.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-center border-end-sm border-bottom p-3">
+                    <img src="assets/img/services/icons/digital.svg" width="48" alt="Icon">
+                    <div class="ps-2 ms-1">
+                      <h3 class="h6 mb-0">Guadalajara 2022 Campeonato del Mundo de Taekwondo</h3>
+                      <p class="fs-xs mb-0">Aliquam quis odio senectus.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-center border-bottom p-3">
+                    <img src="assets/img/services/icons/chart.svg" width="48" alt="Icon">
+                    <div class="ps-2 ms-1">
+                      <h3 class="h6 mb-0">Campeonato Panamericano de Poomsae 2024</h3>
+                      <p class="fs-xs mb-0">Curabitur neque ut morbi sapien.</p>
+                    </div>
+                  </div>
+                <div class="col d-flex align-items-center border-end-sm p-3">
+                  <img src="assets/img/services/icons/marketing.svg" width="48" alt="Icon">
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Santiago 2023 Juegos Panamericanos</h3>
+                    <p class="fs-xs mb-0">At faucibus molestie egestas sed.</p>
+                  </div>
+                </div>
+                
+                <hr class="d-sm-none">
+                <div class="col d-flex align-items-center p-3">
+                  <img src="assets/img/services/icons/cybersecurity.svg" width="48" alt="Icon">
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Grand-Prix WT Roma 2023</h3>
+                    <p class="fs-xs mb-0">Guadalajara 2022 Campeonato del Mundo de Taekwondo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row">
+              <a href="#" class="btn btn-primary mb-3 mb-sm-0 me-sm-3">Send request</a>
+              <a href="#" class="btn btn-outline-primary">
+                Learn more
+                <i class="bx bx-right-arrow-alt fs-xl ms-2 me-n1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
+      <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
+        <div class="row pt-xl-3">
+          <div class="col-md-5 text-center text-md-start pb-5">
+            <h1 class="mb-4">Premios y reconocimientos</h1>
+            <p class="fs-lg pb-lg-3 mb-4">Araceli ha sido reconocida repetidamente con el premio a Mejor Árbitro en competencias internacionales. Su más reciente galardón fue otorgado en la Gala 2023 de la Unión Panamericana de Taekwondo (PATU).</p>
+            
+            <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
+              <h2 class="h6 mb-4">Algunos reconocimientos recibidos son:</h2>
+
+
+              <ul class="list-unstyled pb-2">
+                <li class="d-flex align-items-center pb-1 mb-2">
+                  <i class="bx bx-check-circle text-primary fs-xl me-2"></i>
+                  Mejor juez femenil en el campeonato XXXXX
+                </li>
+                <li class="d-flex align-items-center pb-1 mb-2">
+                  <i class="bx bx-check-circle text-primary fs-xl me-2"></i>
+                  Mejor juez femenil en el campeonato XXXXX
+                </li>
+                <li class="d-flex align-items-center pb-1 mb-2">
+                  <i class="bx bx-check-circle text-primary fs-xl me-2"></i>
+                  Mejor juez femenil en el campeonato XXXXX
+              </ul>
+
+              <a href="about-v2.html" class="btn btn-primary shadow-primary btn-lg">Más sobre mi</a>
+
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
+            <img src="assets/img/IMG-20241008-WA0007.jpg" class="rounded-3 shadow-sm" alt="Image">
+          </div>
+        </div>
+      </section>
 <h1 id="experiencia-profesional-corporativa">Experiencia Profesional Corporativa</h1>
 <p>Risk Specialist – Conekta (2020 - 2023): Encargada de identificar y gestionar riesgos operacionales en cumplimiento de las obligaciones legales de la institución. Coordinó la implementación de controles y evaluaciones de riesgos.</p>
 <p>Asistente de Dirección – Salulleza (2016 - 2019): Apoyó en la dirección empresarial, brindando asesoría sobre normas y políticas internas, promoviendo una cultura organizacional basada en el cumplimiento normativo.</p>
 <p>Risk Compliance Analyst – HSBC (2004 - 2013): Experta en control interno, riesgo y compliance en una de las instituciones financieras más importantes del mundo. Se encargó de la administración de riesgos y formación en recursos humanos y legales.</p>
-<h1 id="testimonios">Testimonios</h1>
-<blockquote>
-<p>Las conferencias de Araceli me ayudaron a comprender el arbitraje desde una perspectiva más ética y profesional. Su conocimiento es invaluable. – Juan Pérez, Árbitro Nacional.</p>
-</blockquote>
-<p>&ldquo;Gracias a su capacitación, mi equipo de entrenadores ahora tiene una visión clara sobre cómo liderar con ética y profesionalismo.&rdquo; – Ana Martínez, Coach de Taekwondo.</p>
+
+      
+      <section class="bg-secondary py-5">
+        <div class="container py-2 py-md-3 py-lg-4 py-xl-5">
+          <div class="row row-cols-1 row-cols-md-2 gx-3 gx-lg-4">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <div class="card border-0 bg-dark h-100 p-xl-4">
+                <div class="card-body">
+                  <h2 class="display-1 text-light">+2000</h2>
+                  <p class="lead fw-medium text-light"><span class="opacity-70">personas han participado en </span> <span class="fw-bold">Cursos y Conferencias</span><span class="opacity-70">. It’s a new transparent and efficient way to organize all of your daily tasks.</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm p-4 p-xxl-5">
+                <div class="d-flex justify-content-between pb-4 mb-2">
+                  <span class="btn btn-icon btn-primary btn-lg shadow-primary pe-none">
+                    <i class="bx bxs-quote-left"></i>
+                  </span>
+                  <div class="d-flex">
+                    <button type="button" id="testimonials-prev" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Previous">
+                      <i class="bx bx-chevron-left"></i>
+                    </button>
+                    <button type="button" id="testimonials-next" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Next">
+                      <i class="bx bx-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+                
+                
+                <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
+                  "spaceBetween": 24,
+                  "loop": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "prevEl": "#testimonials-prev",
+                    "nextEl": "#testimonials-next"
+                  }
+                }'>
+                  <div class="swiper-wrapper">
+  
+                    
+  
+                    
+                    <div class="swiper-slide h-auto">
+                      <figure class="card h-100 position-relative border-0 bg-transparent">
+                        <blockquote class="card-body p-0 mb-0">
+                          <p class="fs-lg mb-0">Las conferencias de Araceli me ayudaron a comprender el arbitraje desde una perspectiva más ética y profesional. Su conocimiento es invaluable.</p>
+                        </blockquote>
+                        <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                          <img src="assets/img/avatar/52.jpg" width="60" class="rounded-circle" alt="Darrell Steward">
+                          <div class="ps-3">
+                            <h6 class="fw-semibold lh-base mb-0">Juan Pérez</h6>
+                            <span class="fs-sm text-muted">Árbitro Nacional</span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    
+  
+                    
+                    <div class="swiper-slide h-auto">
+                      <figure class="card h-100 position-relative border-0 bg-transparent">
+                        <blockquote class="card-body p-0 mb-0">
+                          <p class="fs-lg mb-0">Testimonio 2</p>
+                        </blockquote>
+                        <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                          <img src="assets/img/avatar/11.jpg" width="60" class="rounded-circle" alt="Darrell Steward">
+                          <div class="ps-3">
+                            <h6 class="fw-semibold lh-base mb-0">Nombre</h6>
+                            <span class="fs-sm text-muted">Coach de Taekwondo</span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    
+  
+                    
+                    <div class="swiper-slide h-auto">
+                      <figure class="card h-100 position-relative border-0 bg-transparent">
+                        <blockquote class="card-body p-0 mb-0">
+                          <p class="fs-lg mb-0">Testimonio 3</p>
+                        </blockquote>
+                        <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                          <img src="assets/img/avatar/23.jpg" width="60" class="rounded-circle" alt="Darrell Steward">
+                          <div class="ps-3">
+                            <h6 class="fw-semibold lh-base mb-0">Nombre</h6>
+                            <span class="fs-sm text-muted">Coach de Taekwondo</span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    
+  
+                    
+                    <div class="swiper-slide h-auto">
+                      <figure class="card h-100 position-relative border-0 bg-transparent">
+                        <blockquote class="card-body p-0 mb-0">
+                          <p class="fs-lg mb-0">Testimonio 4</p>
+                        </blockquote>
+                        <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                          <img src="assets/img/avatar/40.jpg" width="60" class="rounded-circle" alt="Darrell Steward">
+                          <div class="ps-3">
+                            <h6 class="fw-semibold lh-base mb-0">Nombre</h6>
+                            <span class="fs-sm text-muted">Coach de Taekwondo</span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    
+  
+                    
+                    <div class="swiper-slide h-auto">
+                      <figure class="card h-100 position-relative border-0 bg-transparent">
+                        <blockquote class="card-body p-0 mb-0">
+                          <p class="fs-lg mb-0">Testimonio 5</p>
+                        </blockquote>
+                        <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                          <img src="assets/img/avatar/53.jpg" width="60" class="rounded-circle" alt="Darrell Steward">
+                          <div class="ps-3">
+                            <h6 class="fw-semibold lh-base mb-0">Nombre</h6>
+                            <span class="fs-sm text-muted">Coach de Taekwondo</span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    
+  
+                    
+                    <div class="swiper-slide h-auto">
+                      <figure class="card h-100 position-relative border-0 bg-transparent">
+                        <blockquote class="card-body p-0 mb-0">
+                          <p class="fs-lg mb-0">Gracias a su capacitación, mi equipo de entrenadores ahora tiene una visión clara sobre cómo liderar con ética y profesionalismo.</p>
+                        </blockquote>
+                        <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                          <img src="assets/img/avatar/54.jpg" width="60" class="rounded-circle" alt="Darrell Steward">
+                          <div class="ps-3">
+                            <h6 class="fw-semibold lh-base mb-0">Ana Martínez</h6>
+                            <span class="fs-sm text-muted">Coach de Taekwondo</span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    
+                  </div>
+  
+                  
+                  <div class="swiper-pagination position-relative mt-5"></div>
+                </div>        
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 <h1 id="contacto-y-reservas">Contacto y Reservas</h1>
 <p>Formulario de Contacto:
 Ponte en contacto para conocer más sobre cómo las conferencias de Araceli Ornelas Caballero pueden transformar tu visión del arbitraje y el liderazgo deportivo.
 [Formulario de contacto]</p>
 <p>Calendario de Próximos Eventos: Una sección para destacar los próximos eventos y conferencias, con posibilidad de reservar.</p>
 
+
+
+
+
+      
+      <section class="bg-secondary pt-5">
+
+          
   
-    <h2><a href="/blog/post-3/">La Importancia del Fair Play en el Deporte y en la Vida</a></h2>
-    <h3 id="introducción"><strong>Introducción</strong></h3>
-<p>El concepto de fair play es esencial en el Taekwondo y en todos los deportes, pero también es un principio que puede guiarnos en la vida y en el trabajo. En este artículo, exploro cómo el fair play, o juego limpio, fomenta el respeto, la equidad y el compañerismo, tanto dentro como fuera del tatami.</p>
-<p><img src="bryce-canyon.jpg" alt="Bryce Canyon National Park"></p>
-<h3 id="contenido"><strong>Contenido</strong></h3>
-<ol>
-<li>
-<p><strong>Respeto por los Contrincantes</strong><br>
-En Taekwondo, respetar al oponente es esencial. El fair play significa competir de manera justa y reconocer el esfuerzo y habilidad de los demás. En el ámbito profesional, esto se traduce en respetar a colegas y competidores, y valorar sus contribuciones sin menospreciar sus logros.</p>
+  <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
+
   
-    <h2><a href="/blog/post-2/">Cómo Mantener la Calma Bajo Presión: Lecciones del Arbitraje en Taekwondo</a></h2>
-    <h3 id="introducción"><strong>Introducción</strong></h3>
-<p>La presión es una constante en el mundo del arbitraje. Los árbitros en competiciones de alto nivel, como el Taekwondo, enfrentan decisiones en fracciones de segundo que pueden impactar el resultado de toda una competencia. Aquí comparto algunas estrategias que uso para mantener la calma y la claridad mental en momentos de alta presión, estrategias que también son aplicables a situaciones corporativas y de la vida cotidiana.</p>
-<h3 id="contenido"><strong>Contenido</strong></h3>
-<ol>
-<li>
-<p><strong>Respiración y Enfoque</strong><br>
-Uno de los primeros pasos para manejar la presión es la respiración. En el tatami, me tomo un momento para respirar profundamente antes de tomar una decisión importante. Este simple acto ayuda a reducir la ansiedad y permite que la mente se enfoque. En el trabajo, tómate un breve momento para respirar y enfocarte cuando sientas que la presión se intensifica.</p>
-  
-    <h2><a href="/blog/post-1/">Lecciones de Liderazgo y Ética desde el Tatami</a></h2>
-    <h3 id="introducción"><strong>Introducción</strong></h3>
-<p>Como árbitro internacional de Taekwondo y especialista en cumplimiento normativo, he tenido la oportunidad de ver de primera mano cómo la ética y el liderazgo juegan un papel crucial en todas las facetas de nuestras vidas, desde las competiciones deportivas hasta los desafíos corporativos. En este artículo, quiero compartir algunas lecciones de liderazgo y ética que he aprendido a lo largo de mi carrera en el Taekwondo y que se aplican en cualquier entorno profesional.</p>
+    <div class="col-10 col-sm-9 col-md-6 col-xl-7 pb-2 pb-md-0 mb-4 mb-md-0">
   
 
-  </main>
-  <footer>
-    <p>Copyright 2024. All rights reserved.</p>
 
-  </footer>
-</body>
+
+
+              <img src="/assets/img/landing/app-showcase-3/categories/business.png" width="642" alt="Businessman">
+            </div>
+            <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
+              <h2 class="mb-lg-4">Conferencias y Capacitaciones</h2>
+              <p class="fs-lg pb-4 mb-0"></p>
+              <a href="/conferencias/" class="btn btn-outline-primary mt-1">
+                Learn more
+                <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </section>
+
+
+  
+  <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
+
+  
+    <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+  
+
+
+
+
+              <img src="/assets/img/landing/app-showcase-3/categories/business.png" width="642" alt="Businessman">
+            </div>
+            <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
+              <h2 class="mb-lg-4">Blog</h2>
+              <p class="fs-lg pb-4 mb-0"></p>
+              <a href="/blog/" class="btn btn-outline-primary mt-1">
+                Learn more
+                <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </section>
+
+
+  
+
+
+
+
+      
+      <section class="container mt-4 pt-lg-2 pb-4">
+
+        
+        <div class="row gy-4 align-items-end mb-2 pb-md-3">
+          <div class="col-lg-8 col-md-6">
+            <h1 class="mb-0">Blog</h1>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            
+          </div>
+        </div>
+
+        
+        <div class="swiper swiper-nav-onhover mx-n2" data-swiper-options='{
+          "slidesPerView": 1,
+          "spaceBetween": 8,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "clickable": true
+          },
+          "breakpoints": {
+            "0": {
+              "slidesPerView": 1
+            },
+            "560": {
+              "slidesPerView": 2
+            },
+            "992": {
+              "slidesPerView": 3
+            }
+          }
+        }'>
+          <div class="swiper-wrapper">
+
+
+
+            
+            <div class="swiper-slide h-auto py-3">
+              <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                <div class="card-body pb-0">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">BLOG</a>
+                    <span class="fs-sm text-muted">2023-03-15</span>
+                  </div>
+                  <h3 class="h4">
+                    <a href="/blog/post-3/" class="stretched-link">La Importancia del Fair Play en el Deporte y en la Vida</a>
+                  </h3>
+                  <p class="mb-0"></p>
+                </div>
+                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
+                  <div class="d-flex align-items-center me-3">
+                    <i class="bx bx-like fs-lg me-1"></i>
+                    <span class="fs-sm">5</span>
+                  </div>
+                  <div class="d-flex align-items-center me-3">
+                    <i class="bx bx-comment fs-lg me-1"></i>
+                    <span class="fs-sm">3</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bx bx-share-alt fs-lg me-1"></i>
+                    <span class="fs-sm">9</span>
+                  </div>
+                </div>
+              </article>
+              
+            </div>
+            
+
+
+            
+            <div class="swiper-slide h-auto py-3">
+              <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                <div class="card-body pb-0">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">BLOG</a>
+                    <span class="fs-sm text-muted">2023-02-15</span>
+                  </div>
+                  <h3 class="h4">
+                    <a href="/blog/post-2/" class="stretched-link">Cómo Mantener la Calma Bajo Presión: Lecciones del Arbitraje en Taekwondo</a>
+                  </h3>
+                  <p class="mb-0"></p>
+                </div>
+                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
+                  <div class="d-flex align-items-center me-3">
+                    <i class="bx bx-like fs-lg me-1"></i>
+                    <span class="fs-sm">5</span>
+                  </div>
+                  <div class="d-flex align-items-center me-3">
+                    <i class="bx bx-comment fs-lg me-1"></i>
+                    <span class="fs-sm">3</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bx bx-share-alt fs-lg me-1"></i>
+                    <span class="fs-sm">9</span>
+                  </div>
+                </div>
+              </article>
+              
+            </div>
+            
+
+
+            
+            <div class="swiper-slide h-auto py-3">
+              <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                <div class="card-body pb-0">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">BLOG</a>
+                    <span class="fs-sm text-muted">2023-01-15</span>
+                  </div>
+                  <h3 class="h4">
+                    <a href="/blog/post-1/" class="stretched-link">Lecciones de Liderazgo y Ética desde el Tatami</a>
+                  </h3>
+                  <p class="mb-0"></p>
+                </div>
+                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
+                  <div class="d-flex align-items-center me-3">
+                    <i class="bx bx-like fs-lg me-1"></i>
+                    <span class="fs-sm">5</span>
+                  </div>
+                  <div class="d-flex align-items-center me-3">
+                    <i class="bx bx-comment fs-lg me-1"></i>
+                    <span class="fs-sm">3</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bx bx-share-alt fs-lg me-1"></i>
+                    <span class="fs-sm">9</span>
+                  </div>
+                </div>
+              </article>
+              
+            </div>
+            
+
+
+          </div>
+          
+
+          
+          <div class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4"></div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+<p>Copyright 2024. All rights reserved.</p>
+</footer>
+
+    
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    
+    <script src="/assets/js/theme.min.js"></script>
+  </body>
 </html>

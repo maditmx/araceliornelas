@@ -1,0 +1,44 @@
+[
+    {
+        "testimonio":"Las conferencias de Araceli me ayudaron a comprender el arbitraje desde una perspectiva más ética y profesional. Su conocimiento es invaluable.",
+        "autor":"Juan Pérez",
+        "titulo":"Árbitro Nacional",
+        "avatar":"52",
+        "stars":5
+    },
+    {
+        "testimonio":"Testimonio 2",
+        "autor":"Nombre",
+        "titulo":"Coach de Taekwondo",
+        "avatar":"11",
+        "stars":4
+    },
+    {
+        "testimonio":"Testimonio 3",
+        "autor":"Nombre",
+        "titulo":"Coach de Taekwondo",
+        "avatar":"23",
+        "stars":4
+    },
+    {
+        "testimonio":"Testimonio 4",
+        "autor":"Nombre",
+        "titulo":"Coach de Taekwondo",
+        "avatar":"40",
+        "stars":4
+    },
+    {
+        "testimonio":"Testimonio 5",
+        "autor":"Nombre",
+        "titulo":"Coach de Taekwondo",
+        "avatar":"53",
+        "stars":4
+    },
+    {
+        "testimonio":"Gracias a su capacitación, mi equipo de entrenadores ahora tiene una visión clara sobre cómo liderar con ética y profesionalismo.",
+        "autor":"Ana Martínez",
+        "titulo":"Coach de Taekwondo",
+        "avatar":"54",
+        "stars":5
+    }
+]

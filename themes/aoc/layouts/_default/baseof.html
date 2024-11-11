@@ -1,17 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-</body>
+<html
+  lang="{{ site.Language.LanguageCode }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}"
+  data-bs-theme="light"
+>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div>
+        <span>Loading...</span>
+      </div>
+    </div>
+
+    <!-- Page wrapper for sticky footer -->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="page-wrapper">
+      <header>{{ partial "header.html" . }}</header>
+
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer>{{ partial "footer.html" . }}</footer>
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Vendor Scripts -->
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="/assets/js/theme.min.js"></script>
+  </body>
 </html>

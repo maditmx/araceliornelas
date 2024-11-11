@@ -1,0 +1,17 @@
+{{ if .Translations }}
+<div class="offcanvas-header border-top">
+  {{ range .Translations }}
+  <a href="{{ .RelPermalink }}" class="btn btn-primary w-100">
+    {{ .Lang | upper }}
+  </a>
+  {{ end }}
+</div>
+{{ else if gt (len .Translations) 1 }}
+<div class="offcanvas-header border-top">
+  {{ range .Translations }} {{ if ne .Lang $.Lang }}
+  <a href="{{ .RelPermalink }}" class="btn btn-primary w-100">
+    {{ .Lang | upper }}
+  </a>
+  {{ end }} {{ end }}
+</div>
+{{ end }}

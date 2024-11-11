@@ -1,4 +1,4 @@
-{{- with resources.Get "js/main.js" }}
+<!-- {{- with resources.Get "js/main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
       <script src="{{ .RelPermalink }}"></script>
@@ -9,4 +9,17 @@
       <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
     {{- end }}
   {{- end }}
-{{- end }}
+{{- end }} -->
+
+<!-- Page loading scripts -->
+<script>
+  (function () {
+    window.onload = function () {
+      const preloader = document.querySelector('.page-loading');
+      preloader.classList.remove('active');
+      setTimeout(function () {
+        preloader.remove();
+      }, 1000);
+    };
+  })();
+</script>

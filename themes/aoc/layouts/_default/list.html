@@ -1,8 +1,14 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+
+
+
+  <h1>Blog</h1>
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
+    {{ else }}
+    <p>{{ i18n "no-posts"}}</p>
   {{ end }}
 {{ end }}
