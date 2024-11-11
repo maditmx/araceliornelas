@@ -21,8 +21,9 @@ phone = "+52 55 5555 8888"
 
 
 
-{{< awards >}}
 
+
+{{< awards2 >}}
 
 # Experiencia Profesional Corporativa
 
