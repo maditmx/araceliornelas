@@ -1,0 +1,30 @@
+baseURL = 'https://araceliornelas.com/'
+languageCode = 'es'
+title = 'Araceli Ornelas'
+theme = 'aoc'
+
+[[menus.main]]
+name = 'Inicio'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Sobre mi'
+pageRef = '/about'
+weight = 20
+
+[[menus.main]]
+name = 'Conferencias y Capacitaciones'
+pageRef = '/conferencias'
+weight = 30
+
+[[menus.main]]
+name = 'Blog'
+pageRef = '/blog'
+weight = 40
+
+[[menus.main]]
+name = 'Contacto'
+pageRef = '/contacto'
+weight = 50
+
