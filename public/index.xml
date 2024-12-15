@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inicio on Araceli Ornelas</title>
-    <link>https://araceliornelas.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Inicio on Araceli Ornelas</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 11 Nov 2024 19:55:59 +0100</lastBuildDate>
-    <atom:link href="https://araceliornelas.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contacto</title>
-      <link>https://araceliornelas.com/contacto/</link>
+      <link>http://localhost:1313/contacto/</link>
       <pubDate>Mon, 11 Nov 2024 19:55:59 +0100</pubDate>
-      <guid>https://araceliornelas.com/contacto/</guid>
-      <description>&lt;p&gt;{{ .Render &amp;ldquo;contacto&amp;rdquo; }}&#xA;&#xA;      &#xA;      &lt;section class=&#34;container&#34;&gt;&#xA;        &lt;div class=&#34;bg-secondary rounded-3 py-5 px-3 px-sm-4 px-md-0&#34;&gt;&#xA;          &lt;h2 class=&#34;text-center pt-md-1 pt-lg-3 pt-xl-4 pb-4 mt-xl-1 mb-2&#34;&gt;Preguntas Frecuentes&lt;/h2&gt;&#xA;          &lt;div class=&#34;row justify-content-center pb-lg-4 pb-xl-5&#34;&gt;&#xA;            &lt;div class=&#34;col-xl-8 col-lg-9 col-md-10 pb-md-2&#34;&gt;&#xA;              &lt;div class=&#34;accordion&#34; id=&#34;faq&#34;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;                &lt;div class=&#34;accordion-item border-0 rounded-3 shadow-sm&#34;&gt;&#xA;                  &lt;h3 class=&#34;accordion-header&#34;&gt;&#xA;                    &lt;button class=&#34;accordion-button shadow-none rounded-3 collapsed&#34; type=&#34;button&#34; data-bs-toggle=&#34;collapse&#34; data-bs-target=&#34;#q-0&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;q-0&#34;&gt;What if I don&amp;#39;t have any professional background?&lt;/button&gt;&#xA;                  &lt;/h3&gt;&#xA;                  &lt;div class=&#34;accordion-collapse collapse&#34; id=&#34;q-0&#34; data-bs-parent=&#34;#faq&#34;&gt;&#xA;                    &lt;div class=&#34;accordion-body fs-sm pt-0&#34;&gt;&#xA;                      &lt;p&gt;Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/contacto/</guid>
+      <description>&lt;section class=&#34;container&#34;&gt;&#xA;        &lt;div class=&#34;bg-secondary rounded-3 py-5 px-3 px-sm-4 px-md-0&#34;&gt;&#xA;          &lt;h2 class=&#34;text-center pt-md-1 pt-lg-3 pt-xl-4 pb-4 mt-xl-1 mb-2&#34;&gt;Preguntas Frecuentes&lt;/h2&gt;&#xA;          &lt;div class=&#34;row justify-content-center pb-lg-4 pb-xl-5&#34;&gt;&#xA;            &lt;div class=&#34;col-xl-8 col-lg-9 col-md-10 pb-md-2&#34;&gt;&#xA;              &lt;div class=&#34;accordion&#34; id=&#34;faq&#34;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;                &lt;div class=&#34;accordion-item border-0 rounded-3 shadow-sm&#34;&gt;&#xA;                  &lt;h3 class=&#34;accordion-header&#34;&gt;&#xA;                    &lt;button class=&#34;accordion-button shadow-none rounded-3 collapsed&#34; type=&#34;button&#34; data-bs-toggle=&#34;collapse&#34; data-bs-target=&#34;#q-0&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;q-0&#34;&gt;What if I don&amp;#39;t have any professional background?&lt;/button&gt;&#xA;                  &lt;/h3&gt;&#xA;                  &lt;div class=&#34;accordion-collapse collapse&#34; id=&#34;q-0&#34; data-bs-parent=&#34;#faq&#34;&gt;&#xA;                    &lt;div class=&#34;accordion-body fs-sm pt-0&#34;&gt;&#xA;                      &lt;p&gt;Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sobre Mi</title>
-      <link>https://araceliornelas.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 15 Oct 2024 12:27:41 +0200</pubDate>
-      <guid>https://araceliornelas.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;biografía&#34;&gt;Biografía&lt;/h1&gt;&#xA;&lt;p&gt;Araceli Ornelas Caballero nació en la Ciudad de México y es egresada de la carrera de Negocios Internacionales del Instituto Politécnico Nacional. Desde muy joven, se dedicó al Taekwondo, alcanzando el grado de Cinta Negra 3er Dan y destacándose como competidora estatal. En paralelo, ha desarrollado una exitosa carrera en el ámbito del cumplimiento normativo y la gestión de riesgos, desempeñándose como especialista en instituciones financieras de renombre como Conekta, BBVA y HSBC.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La Importancia del Fair Play en el Deporte y en la Vida</title>
-      <link>https://araceliornelas.com/blog/post-3/</link>
+      <link>http://localhost:1313/blog/post-3/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/blog/post-3/</guid>
+      <guid>http://localhost:1313/blog/post-3/</guid>
       <description>&lt;h3 id=&#34;introducción&#34;&gt;&lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;El concepto de fair play es esencial en el Taekwondo y en todos los deportes, pero también es un principio que puede guiarnos en la vida y en el trabajo. En este artículo, exploro cómo el fair play, o juego limpio, fomenta el respeto, la equidad y el compañerismo, tanto dentro como fuera del tatami.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;contenido&#34;&gt;&lt;strong&gt;Contenido&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Respeto por los Contrincantes&lt;/strong&gt;&lt;br&gt;&#xA;En Taekwondo, respetar al oponente es esencial. El fair play significa competir de manera justa y reconocer el esfuerzo y habilidad de los demás. En el ámbito profesional, esto se traduce en respetar a colegas y competidores, y valorar sus contribuciones sin menospreciar sus logros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cómo Mantener la Calma Bajo Presión: Lecciones del Arbitraje en Taekwondo</title>
-      <link>https://araceliornelas.com/blog/post-2/</link>
+      <link>http://localhost:1313/blog/post-2/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/blog/post-2/</guid>
+      <guid>http://localhost:1313/blog/post-2/</guid>
       <description>&lt;h3 id=&#34;introducción&#34;&gt;&lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;La presión es una constante en el mundo del arbitraje. Los árbitros en competiciones de alto nivel, como el Taekwondo, enfrentan decisiones en fracciones de segundo que pueden impactar el resultado de toda una competencia. Aquí comparto algunas estrategias que uso para mantener la calma y la claridad mental en momentos de alta presión, estrategias que también son aplicables a situaciones corporativas y de la vida cotidiana.&lt;/p&gt;&#xA;&lt;h3 id=&#34;contenido&#34;&gt;&lt;strong&gt;Contenido&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Respiración y Enfoque&lt;/strong&gt;&lt;br&gt;&#xA;Uno de los primeros pasos para manejar la presión es la respiración. En el tatami, me tomo un momento para respirar profundamente antes de tomar una decisión importante. Este simple acto ayuda a reducir la ansiedad y permite que la mente se enfoque. En el trabajo, tómate un breve momento para respirar y enfocarte cuando sientas que la presión se intensifica.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecciones de Liderazgo y Ética desde el Tatami</title>
-      <link>https://araceliornelas.com/blog/post-1/</link>
+      <link>http://localhost:1313/blog/post-1/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/blog/post-1/</guid>
+      <guid>http://localhost:1313/blog/post-1/</guid>
       <description>&lt;h3 id=&#34;introducción&#34;&gt;&lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Como árbitro internacional de Taekwondo y especialista en cumplimiento normativo, he tenido la oportunidad de ver de primera mano cómo la ética y el liderazgo juegan un papel crucial en todas las facetas de nuestras vidas, desde las competiciones deportivas hasta los desafíos corporativos. En este artículo, quiero compartir algunas lecciones de liderazgo y ética que he aprendido a lo largo de mi carrera en el Taekwondo y que se aplican en cualquier entorno profesional.&lt;/p&gt;</description>
     </item>
   </channel>

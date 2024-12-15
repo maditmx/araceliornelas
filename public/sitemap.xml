@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://araceliornelas.com/contacto/</loc>
+    <loc>http://localhost:1313/contacto/</loc>
     <lastmod>2024-11-11T19:55:59+01:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/conferencias/</loc>
+    <loc>http://localhost:1313/conferencias/</loc>
     <lastmod>2024-10-15T12:34:35+02:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-10-15T12:27:41+02:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/tags/deporte/</loc>
+    <loc>http://localhost:1313/tags/deporte/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/blog/post-3/</loc>
+    <loc>http://localhost:1313/blog/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/tags/salud/</loc>
+    <loc>http://localhost:1313/tags/salud/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/blog/post-2/</loc>
+    <loc>http://localhost:1313/blog/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/tags/mindfulness/</loc>
+    <loc>http://localhost:1313/tags/mindfulness/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/blog/post-1/</loc>
+    <loc>http://localhost:1313/blog/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/tags/liderazgo/</loc>
+    <loc>http://localhost:1313/tags/liderazgo/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://araceliornelas.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

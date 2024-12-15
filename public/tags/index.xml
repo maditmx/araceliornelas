@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Araceli Ornelas</title>
-    <link>https://araceliornelas.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Araceli Ornelas</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
-    <atom:link href="https://araceliornelas.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deporte</title>
-      <link>https://araceliornelas.com/tags/deporte/</link>
+      <link>http://localhost:1313/tags/deporte/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/deporte/</guid>
+      <guid>http://localhost:1313/tags/deporte/</guid>
       <description></description>
     </item>
     <item>
       <title>Salud</title>
-      <link>https://araceliornelas.com/tags/salud/</link>
+      <link>http://localhost:1313/tags/salud/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/salud/</guid>
+      <guid>http://localhost:1313/tags/salud/</guid>
       <description></description>
     </item>
     <item>
       <title>Mindfulness</title>
-      <link>https://araceliornelas.com/tags/mindfulness/</link>
+      <link>http://localhost:1313/tags/mindfulness/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/mindfulness/</guid>
+      <guid>http://localhost:1313/tags/mindfulness/</guid>
       <description></description>
     </item>
     <item>
       <title>Liderazgo</title>
-      <link>https://araceliornelas.com/tags/liderazgo/</link>
+      <link>http://localhost:1313/tags/liderazgo/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/tags/liderazgo/</guid>
+      <guid>http://localhost:1313/tags/liderazgo/</guid>
       <description></description>
     </item>
   </channel>

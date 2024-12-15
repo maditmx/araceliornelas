@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deporte on Araceli Ornelas</title>
-    <link>https://araceliornelas.com/tags/deporte/</link>
+    <link>http://localhost:1313/tags/deporte/</link>
     <description>Recent content in Deporte on Araceli Ornelas</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
-    <atom:link href="https://araceliornelas.com/tags/deporte/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/deporte/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La Importancia del Fair Play en el Deporte y en la Vida</title>
-      <link>https://araceliornelas.com/blog/post-3/</link>
+      <link>http://localhost:1313/blog/post-3/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/blog/post-3/</guid>
+      <guid>http://localhost:1313/blog/post-3/</guid>
       <description>&lt;h3 id=&#34;introducción&#34;&gt;&lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;El concepto de fair play es esencial en el Taekwondo y en todos los deportes, pero también es un principio que puede guiarnos en la vida y en el trabajo. En este artículo, exploro cómo el fair play, o juego limpio, fomenta el respeto, la equidad y el compañerismo, tanto dentro como fuera del tatami.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;contenido&#34;&gt;&lt;strong&gt;Contenido&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Respeto por los Contrincantes&lt;/strong&gt;&lt;br&gt;&#xA;En Taekwondo, respetar al oponente es esencial. El fair play significa competir de manera justa y reconocer el esfuerzo y habilidad de los demás. En el ámbito profesional, esto se traduce en respetar a colegas y competidores, y valorar sus contribuciones sin menospreciar sus logros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecciones de Liderazgo y Ética desde el Tatami</title>
-      <link>https://araceliornelas.com/blog/post-1/</link>
+      <link>http://localhost:1313/blog/post-1/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>https://araceliornelas.com/blog/post-1/</guid>
+      <guid>http://localhost:1313/blog/post-1/</guid>
       <description>&lt;h3 id=&#34;introducción&#34;&gt;&lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Como árbitro internacional de Taekwondo y especialista en cumplimiento normativo, he tenido la oportunidad de ver de primera mano cómo la ética y el liderazgo juegan un papel crucial en todas las facetas de nuestras vidas, desde las competiciones deportivas hasta los desafíos corporativos. En este artículo, quiero compartir algunas lecciones de liderazgo y ética que he aprendido a lo largo de mi carrera en el Taekwondo y que se aplican en cualquier entorno profesional.&lt;/p&gt;</description>
     </item>
   </channel>
